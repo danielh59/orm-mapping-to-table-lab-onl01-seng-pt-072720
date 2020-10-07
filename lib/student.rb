@@ -33,7 +33,6 @@ def self.save
      INSERT INTO songs (name, grade)
      VALUES (?, ?)
    SQL
-
    DB[:conn].execute(sql, self.name, self.grade)
 end
 
