@@ -1,6 +1,6 @@
 class Student
 
-attr_accessor :name, :age, :id
+attr_accessor :name, :age
 attr_reader :id
 
 def initialize(name, age, id=nil)
